@@ -1,0 +1,7 @@
+student_id,name,midterm,final,total,average,status
+101,Amir Hussain,85,99,184,92.0,passed
+102,Ahmad Jan,78,72,150,75.0,passed
+103,Amir Mohammad,75,94,169,84.5,passed
+104,Suliman,50,85,135,67.5,failed
+105,Amir Ali,86,91,177,88.5,passed
+105,"Amir, Ali",86,91,177,88.5,passed

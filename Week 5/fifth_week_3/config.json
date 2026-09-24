@@ -1,9 +1,0 @@
-{
-    "app_name": "Student Management System",
-    "version": "1.0.0",
-    "settings": {
-        "theme": "light",
-        "language": "English",
-        "notifications": true
-    }
-}

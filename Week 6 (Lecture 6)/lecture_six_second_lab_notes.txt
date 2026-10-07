@@ -1,0 +1,11 @@
+Welcome to the Simple Text Editor.
+
+This is sample text inserted by the program.
+
+You can edit this text, clear it, or disable the editor.
+
+Tkinter makes it possible to create graphical applications
+using Python.
+this another note i want to add to my project
+
+here it is

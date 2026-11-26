@@ -1,0 +1,48 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snake — Django Edition</title>
+  <link rel="stylesheet" href="{% static 'game/style.css' %}">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="page-header">
+      <div class="brand">
+        <span class="brand-name">SNAKE</span>
+        <span class="brand-subtitle">Django Edition</span>
+      </div>
+      <span class="framework-pill">PYTHON · DJANGO</span>
+    </header>
+
+    <section class="game-layout" aria-label="Snake game">
+      <aside class="sidebar">
+        <p class="eyebrow">CURRENT RUN</p>
+        <p id="score" class="score">000</p>
+
+        <p class="eyebrow best-label">BEST SCORE</p>
+        <p id="best-score" class="best-score">000</p>
+
+        <p id="status" class="status">Ready when you are</p>
+
+        <button id="start-button" class="button primary">Start Game</button>
+        <button id="restart-button" class="button secondary">Restart</button>
+
+        <div class="controls-card">
+          <p class="controls-title">CONTROLS</p>
+          <p>Arrow keys / WASD<br>Space &nbsp; Pause<br>R &nbsp; Restart</p>
+        </div>
+      </aside>
+
+      <div class="board-frame">
+        <canvas id="game-canvas" width="600" height="528" aria-label="Snake game board"></canvas>
+      </div>
+    </section>
+
+    <p class="page-footer">Eat the pink squares, grow your score, and avoid the walls.</p>
+  </main>
+  <script src="{% static 'game/game.js' %}"></script>
+</body>
+</html>
